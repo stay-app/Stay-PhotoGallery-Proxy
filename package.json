@@ -1,0 +1,29 @@
+{
+  "name": "stay-photogallery-proxy",
+  "version": "1.0.0",
+  "description": "* API Proxy Server [x] Create server folder [x] npm install express morgan cors node-fetch [ ] GET route to proxy API request [ ] request listingData from App using node-fetchc  [ ] serve App response to client [ ] deploy",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stay-app/Stay-PhotoGallery-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stay-app/Stay-PhotoGallery-Proxy/issues"
+  },
+  "homepage": "https://github.com/stay-app/Stay-PhotoGallery-Proxy#readme"
+}
