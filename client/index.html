@@ -9,13 +9,26 @@
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
   </head>
   <body>
-    <div id="root"></div>
-    <script src="http://localhost:3000/main.js"></script>
+    <div id='PhotoGallery'></div>
+    <!-- <div id="res"></div> -->
+    <div id="app"></div>
+    <script src="http://localhost:5000/bundle.js"></script>
+    <!-- <script src="http://localhost:5001/bundle.js"></script> -->
+    <script src="http://localhost:5002/bundle.js"></script>
+    <!-- <script src="http://localhost:5003/main.js"></script> -->
     <script>
       ReactDOM.render(
-        React.createElement(root),
+        React.createElement(PhotoGallery),
         document.getElementById('PhotoGallery')
-        );
+      );
+      // ReactDOM.render(
+      //   React.createElement(Reservations),
+      //   document.getElementById('res')
+      // );
+      ReactDOM.render(
+        React.createElement(Reviews),
+        document.getElementById('app')
+      );
     </script>
   </body>
 </html>
